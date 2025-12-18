@@ -12,6 +12,8 @@ version = property("version") as String
 
 repositories {
     mavenCentral()
+    maven("https://maven.pvphub.me/tofaa")
+    maven("https://mvn.lib.co.nz/public")
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.nexomc.com/snapshots/")
     maven("https://oss.sonatype.org/content/groups/public/")
